@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|c:\\users\\msi pc\\source\\repos\\supportlearning\\supportlearning\\authenticaiton page\\authentication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\authenticaiton page\\authentication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\supportlearning\\studyspace.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\studyspace.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\supportlearning\\studyspace.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\studyspace.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\supportlearning\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudySpace.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\StudySpace.aspx.cs",
+              "RelativeDocumentMoniker": "SupportLearning\\StudySpace.aspx.cs",
+              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\StudySpace.aspx.cs",
+              "RelativeToolTip": "SupportLearning\\StudySpace.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T07:57:46.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudySpace.aspx",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\StudySpace.aspx",
+              "RelativeDocumentMoniker": "SupportLearning\\StudySpace.aspx",
+              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\StudySpace.aspx",
+              "RelativeToolTip": "SupportLearning\\StudySpace.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-10T07:05:47.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\HomePage.aspx",
+              "RelativeDocumentMoniker": "SupportLearning\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\HomePage.aspx",
+              "RelativeToolTip": "SupportLearning\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-26T02:07:22.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Authentication.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
+              "RelativeDocumentMoniker": "SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
+              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\SupportLearning\\SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
+              "RelativeToolTip": "SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:36:22.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
