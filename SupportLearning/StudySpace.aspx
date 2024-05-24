@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudySpace.aspx.cs" Inherits="SupportLearning.StudySpace" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudySpace.aspx.cs" Inherits="SupportLearning.StudySpace" Async="true" %>
 
 <!DOCTYPE html>
 
@@ -93,16 +93,48 @@
 
 		/*css Bài Post*/
 
-		.new1 {
-			height: 200px;
-			width: 400px;
-			background-color: black;
-			color: white;
+		.Bar_new1 {
+			background-color: #89DA09;
+			padding: 20px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			width: 150%;
 		}
 
 		.on {
-			
+			font-weight: bold;
 		}
+
+		.bar_file_word {
+			background-color: wheat;
+			padding: 10px;
+			margin-bottom: 5px;
+			border-radius: 5px;
+		}
+
+		.Like_Comment {
+			display: flex;
+			justify-content: space-around;
+			padding: 5px;
+			border-radius: 5px;
+		}
+
+		.like-button, .comment-button {
+			padding: 5px 10px;
+			margin: 5px;
+			border: none;
+			border-radius: 5px;
+			color: white;
+			background-color: #D11717;
+			font-size: 14px;
+			cursor: pointer; /* Con trỏ khi di chuột lên nút */
+			transition: background-color 0.3s;
+		}
+
+			.like-button:hover, .comment-button:hover {
+				background-color: #76b207; /* Màu nền khi di chuột lên */
+			}
 	</style>
 </head>
 <body>
@@ -141,7 +173,7 @@
 		<div class="container_underInfoSearchBar">
 			<!--Bên trái -->
 			<div class="Button_List">
-				<asp:Button ID="bt_ListFriends" runat="server" Text="Friends" Height="30px" Width="150px" BorderColor="#C41E2B" ForeColor="#ffffff" BackColor="#C41E2B" Style="border-radius: 5px" />
+				<asp:Button ID="bt_ListFriends" runat="server" Text="Friends" Height="30px" Width="150px" BorderColor="#C41E2B" ForeColor="#ffffff" BackColor="#C41E2B" Style="border-radius: 5px" OnClick="bt_ListFriends_Click" />
 				<div class="space1"></div>
 			</div>
 
@@ -153,16 +185,57 @@
 			<div class="container_New">
 
 				<!--Format của người dùng khi đăng tài liệu-->
-				
-				<div class="new1">
-					<div class="on">
-						<asp:Label ID="lb_documentID" runat="server"></asp:Label>
-						<asp:Label ID="lb_codeuser" runat="server"></asp:Label>
-					</div>
 
-					<div class="under">
-						<asp:Label ID="lb_namedoc" runat="server"></asp:Label>
-					</div>
+				<div class="new1">
+					<asp:DataList ID="DataList1" runat="server">
+						<ItemTemplate>
+							<!-- Hidden field to store PostDocID -->
+							<asp:HiddenField ID="hfPostDocID" runat="server" Value='<%# Eval("PostDocID") %>' />
+
+
+							<!-- Bắt đầu bảng tin - Nhớ css -->
+							<div class="Bar_new1">
+								<div class="on">
+									<%# Eval("PostDocID") %>
+									<%# Eval("Name_UserInfo") %>
+								</div>
+								<div>
+									<asp:Button ID="bt_meetingroom" runat="server" Text="Phòng Họp" OnClick="bt_MeetingRoom_Click" />
+
+								</div>
+
+
+								<div class="under">
+									<div style="opacity: 0.5;">
+										<%# Eval("TimePost_Doc") %>
+									</div>
+									<div>
+										<%# Eval("Description_Doc") %>
+									</div>
+
+									<div class="space"></div>
+
+									<div class="bar_file_word">
+										<b><i><%# Eval("Name_Doc") %></i></b>
+										<div>
+											<a href='<%# "download_handler.ashx?id=" + Eval("PostDocID") %>'>Tải Tệp</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="Like_Comment">
+									<asp:Button ID="LikeButton" runat="server" CssClass="like-button" Text='<%# "Like - " + Eval("TotalLike") %>' />
+
+									<asp:Button ID="CommentButton" runat="server" Text="Comment" CssClass="comment-button" />
+
+								</div>
+
+							</div>
+
+							<div class="space2"></div>
+
+						</ItemTemplate>
+					</asp:DataList>
 				</div>
 			</div>
 		</div>
@@ -172,3 +245,6 @@
 	</form>
 </body>
 </html>
+
+
+
