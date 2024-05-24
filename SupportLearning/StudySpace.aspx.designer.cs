@@ -60,30 +60,12 @@ namespace SupportLearning
         protected global::System.Web.UI.WebControls.Button bt_ListFriends;
 
         /// <summary>
-        /// lb_documentID control.
+        /// DataList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_documentID;
-
-        /// <summary>
-        /// lb_codeuser control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_codeuser;
-
-        /// <summary>
-        /// lb_namedoc control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_namedoc;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
     }
 }
