@@ -147,7 +147,6 @@
 			height: 500px;
 			background-color: white;
 		}
-
 	</style>
 </head>
 <body>
@@ -209,8 +208,6 @@
 			<!--Bên trái -->
 			<div class="Button_List">
 				<asp:Button ID="bt_UserInfo" runat="server" Text="Personal information" Height="30px" Width="150px" BorderColor="#C41E2B" ForeColor="#ffffff" BackColor="#C41E2B" Style="border-radius: 5px" OnClick="bt_UserInfo_Click" />
-				<div class="space1"></div>
-				<asp:Button ID="bt_ListFriends" runat="server" Text="Friends" Height="30px" Width="150px" BorderColor="#C41E2B" ForeColor="#ffffff" BackColor="#C41E2B" Style="border-radius: 5px" />
 				<div class="space1"></div>
 				<asp:Button ID="bt_studySpace" runat="server" Text="Study Space" Height="30px" Width="150px" BorderColor="#C41E2B" ForeColor="#ffffff" BackColor="#C41E2B" Style="border-radius: 5px" OnClick="bt_studySpace_Click" />
 			</div>
