@@ -11,7 +11,7 @@ namespace SupportLearning
 {
 
 
-    public partial class HomePage
+    public partial class Friends
     {
 
         /// <summary>
@@ -24,57 +24,39 @@ namespace SupportLearning
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtNameUser control.
+        /// btnShowFriends control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtNameUser;
+        protected global::System.Web.UI.WebControls.Button btnShowFriends;
 
         /// <summary>
-        /// txtUserName control.
+        /// btnShowNotFriends control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtUserName;
+        protected global::System.Web.UI.WebControls.Button btnShowNotFriends;
 
         /// <summary>
-        /// bt_UserInfo control.
+        /// lblResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_UserInfo;
+        protected global::System.Web.UI.WebControls.Label lblResult;
 
         /// <summary>
-        /// bt_studySpace control.
+        /// DataList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_studySpace;
-
-        /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// bt_new control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_new;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
     }
 }

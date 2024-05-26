@@ -95,6 +95,7 @@
     <Content Include="Assets\lib\js\bootstrap.min.js" />
     <Content Include="Authenticaiton Page\Authentication.aspx" />
     <Content Include="Authenticaiton Page\ForgotPw.aspx" />
+    <Content Include="Friends.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HomePage.aspx" />
     <Content Include="Image\dtu.png" />
@@ -127,6 +128,13 @@
     <Compile Include="download_handler.ashx.cs">
       <DependentUpon>download_handler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Friends.aspx.cs">
+      <DependentUpon>Friends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Friends.aspx.designer.cs">
+      <DependentUpon>Friends.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -152,6 +160,9 @@
     </Compile>
     <Compile Include="Authenticaiton Page\SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Handler.ashx.cs">
+      <DependentUpon>Search_Handler.ashx</DependentUpon>
     </Compile>
     <Compile Include="StudySpace.aspx.cs">
       <DependentUpon>StudySpace.aspx</DependentUpon>
@@ -187,6 +198,7 @@
     <Content Include="Assets\lib\js\bootstrap.min.js.map" />
     <Content Include="download_handler.ashx" />
     <None Include="packages.config" />
+    <Compile Include="Search_Handler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

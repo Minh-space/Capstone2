@@ -51,43 +51,135 @@ namespace SupportLearning
             }
         }
 
-        protected void bt_ListFriends_Click(object sender, EventArgs e)
-        {
-            // Implement your logic here
-        }
+
 
         protected async void bt_MeetingRoom_Click(object sender, EventArgs e)
         {
-            using (var client = new HttpClient())
+            Response.Redirect("https://discord.gg/cqvreWja", false);
+            Context.ApplicationInstance.CompleteRequest();
+        }
+
+        protected void bt_Modal_Click(object sender, EventArgs e)
+        {
+            InsertSL_UserInfo();
+            InsertPost_Doc();
+            InsertDoc();
+        }
+
+        public void InsertPost_Doc()
+        {
+            string query = @"Insert Into Post_Doc(PostDocID, Description_Doc, File_Doc, TimePost_Doc, CMND_UserInfo)
+                     Values (@PostID, @Description, @FileDoc, CURRENT_TIMESTAMP, @CMND_UserInfo)";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
-                // Set the ZEGOCLOUD API key
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("minh", "04AAAAAGZRliIAEDNpcjZmYXl4MG5weWxkYXkAoKzuFQdHkGJLpHTSXZSh9yvLBaDfCb+szuyhxDnZ6rdvXl9dUvsFFk5LutUudksGqG/gA272Zmgm64u+K+SZmNBkLbdgeH+eHwjHpXF/Odpwujmd4zfDpfU1lZKyC7zBj5wroJmrXFcn82nnoB/Qk8BCAhlrmzlyAVgoVfjNPUAfdl6lbNczZz17MY3shWLdiZR/NNt6WNSwopkITvc2Cqk=\r\n");
-
-                // Set the ZEGOCLOUD API endpoint
-                client.BaseAddress = new Uri("https://api.zegocloud.com");
-
-                // Create a new meeting room
-                var formData = new List<KeyValuePair<string, string>>
+                using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    new KeyValuePair<string, string>("displayName", "Your Meeting Room")
-                };
+                    // Chuyển đổi dữ liệu chuỗi từ các TextBox
+                    cmd.Parameters.AddWithValue("@PostID", txt_PostID.Text);
+                    cmd.Parameters.AddWithValue("@Description", txt_Description_Doc.Text);
+                    cmd.Parameters.AddWithValue("@CMND_UserInfo", txt_CMND.Text);
+                    // Chuyển đổi dữ liệu từ FileUpload thành kiểu varbinary
+                    cmd.Parameters.AddWithValue("@FileDoc", bt_UpLoad.FileBytes);
 
-                var content = new FormUrlEncodedContent(formData);
-
-                var response = await client.PostAsync("/v2/CreateMeetingRoom", content);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var meetingRoomUrl = response.Headers.Location.ToString();
-                    Response.Redirect(meetingRoomUrl);
-                }
-                else
-                {
-                    // Handle the error
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    Response.Write("Data Inserted Successfully ");
                 }
             }
-
         }
+
+
+        public void InsertDoc()
+        {
+            string query = @"INSERT INTO Doc (DocumentID_Doc, Name_Doc, File_Doc, Code_User) 
+                     VALUES (@DocumentID, @NameDoc, @FileDoc, @Code_User)";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    // Lấy giá trị của các TextBox
+                    string documentID = txt_DocumentID.Text;
+                    string nameDoc = txt_NameDoc.Text;
+                    string codeuser = txt_Code_User.Text;
+                    // Thêm các tham số với giá trị đã lấy được
+                    cmd.Parameters.AddWithValue("@DocumentID", documentID);
+                    cmd.Parameters.AddWithValue("@NameDoc", nameDoc);
+                    cmd.Parameters.AddWithValue("@Code_User", codeuser);
+                    cmd.Parameters.AddWithValue("@FileDoc", bt_UpLoad.FileBytes);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+
+        public void InsertSL_UserInfo()
+        {
+            string query = @"INSERT INTO [dbo].[SL_UserInfo] ([Name_UserInfo] ,[CMND_UserInfo], [Code_User])
+                     VALUES (@NameUser, @CMND, @Code_User)";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    // Lấy giá trị của các TextBox
+                    string nameUser = txt_NameUser.Text;
+                    string cmnd = txt_CMND.Text;
+                    string codeuser = txt_Code_User.Text;
+                    // Thêm các tham số với giá trị đã lấy được
+                    cmd.Parameters.AddWithValue("@NameUser", nameUser);
+                    cmd.Parameters.AddWithValue("@CMND", cmnd);
+                    cmd.Parameters.AddWithValue("@Code_User", codeuser);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        protected void image_button_Click(object sender, ImageClickEventArgs e)
+        {
+            string searchText = txt_search_text.Text.Trim();
+            if(!string.IsNullOrEmpty(searchText) )
+            {
+                SearchDocument(searchText);
+            }
+        }
+
+        private void SearchDocument(string searchText)
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("SELECT Name_Doc, Code_User, File_Doc FROM Doc WHERE Name_Doc LIKE '%' + @searchText + '%'", con))
+                    {
+                        cmd.Parameters.AddWithValue("@searchText", searchText);
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                        if (reader.HasRows)
+                        {
+                            DataList2.DataSource = reader;
+                            DataList2.DataBind();
+
+                        }
+                        else
+                        {
+                            Response.Write("No documents found !!!");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Response.Write("Error: " + ex.Message);
+            }
+        }
+
     }
 }
 

@@ -3,39 +3,91 @@
   "WorkspaceRootPath": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|c:\\users\\msi pc\\onedrive\\m\u00E1y t\u00EDnh\\capstone2\\supportlearning\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|c:\\users\\msi pc\\onedrive\\m\u00E1y t\u00EDnh\\capstone2\\supportlearning\\studyspace.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\studyspace.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|c:\\users\\msi pc\\onedrive\\m\u00E1y t\u00EDnh\\capstone2\\supportlearning\\authenticaiton page\\authentication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\authenticaiton page\\authentication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\authenticaiton page\\authentication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\studyspace.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\studyspace.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\studyspace.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|c:\\users\\msi pc\\onedrive\\m\u00E1y t\u00EDnh\\capstone2\\supportlearning\\studyspace.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\studyspace.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\friends.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\friends.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\supportlearning\\zoom\\zoomapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52C3D99E-01C5-4C13-83F5-B56A306EBCCE}|SupportLearning\\SupportLearning.csproj|solutionrelative:supportlearning\\zoom\\zoomapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "SupportLearning\\HomePage.aspx.cs",
+              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\HomePage.aspx.cs",
+              "RelativeToolTip": "SupportLearning\\HomePage.aspx.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:22:33.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\HomePage.aspx",
+              "RelativeDocumentMoniker": "SupportLearning\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\HomePage.aspx",
+              "RelativeToolTip": "SupportLearning\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-26T12:04:07.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Friends.aspx",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\Friends.aspx",
+              "RelativeDocumentMoniker": "SupportLearning\\Friends.aspx",
+              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\Friends.aspx",
+              "RelativeToolTip": "SupportLearning\\Friends.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-26T10:31:55.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudySpace.aspx",
+              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\StudySpace.aspx",
+              "RelativeDocumentMoniker": "SupportLearning\\StudySpace.aspx",
+              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\StudySpace.aspx",
+              "RelativeToolTip": "SupportLearning\\StudySpace.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-25T19:30:57.434Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -44,74 +96,22 @@
               "RelativeDocumentMoniker": "SupportLearning\\StudySpace.aspx.cs",
               "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\StudySpace.aspx.cs",
               "RelativeToolTip": "SupportLearning\\StudySpace.aspx.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAiwEkAAAAAAAAA",
+              "ViewState": "AQIAAKQAAAAAAAAAAAD4v7UAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T05:07:06.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudySpace.aspx",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\StudySpace.aspx",
-              "RelativeDocumentMoniker": "SupportLearning\\StudySpace.aspx",
-              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\StudySpace.aspx",
-              "RelativeToolTip": "SupportLearning\\StudySpace.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-10T07:05:47.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomePage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\HomePage.aspx.cs",
-              "RelativeDocumentMoniker": "SupportLearning\\HomePage.aspx.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\HomePage.aspx.cs",
-              "RelativeToolTip": "SupportLearning\\HomePage.aspx.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAEwDEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:49:40.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Authentication.aspx.cs",
               "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
               "RelativeDocumentMoniker": "SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
               "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
               "RelativeToolTip": "SupportLearning\\Authenticaiton Page\\Authentication.aspx.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwCoAAAAVAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T12:36:22.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\Web.config",
-              "RelativeDocumentMoniker": "SupportLearning\\Web.config",
-              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\Web.config",
-              "RelativeToolTip": "SupportLearning\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-24T06:05:09.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ZoomAPI.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\ZOOM\\ZoomAPI.cs",
-              "RelativeDocumentMoniker": "SupportLearning\\ZOOM\\ZoomAPI.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\OneDrive\\M\u00E1y t\u00EDnh\\Capstone2\\SupportLearning\\ZOOM\\ZoomAPI.cs",
-              "RelativeToolTip": "SupportLearning\\ZOOM\\ZoomAPI.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:22:18.958Z",
               "EditorCaption": ""
             }
           ]
